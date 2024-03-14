@@ -21,18 +21,21 @@ const Navbar = () => {
           <h1 className="logo-title">TI SOURCING</h1>
           <ul>
             <li>
-                <a className='menu-item'>Inicio</a>
+                <a href='#hero-container' className='menu-item'>Inicio</a>
             </li>
             <li>
-                <a href='#services-section' className='menu-item'>Serviços</a>
+                <a href='#divider' className='menu-item'>Serviços</a>
             </li>
             <li>
-            <a className='menu-item'>Sobre Nós</a>
+            <a href='#about-us-section' className='menu-item'>Sobre Nós</a>
             </li>
             
-            <button className='contact-btn' onClick={() => {}}>
-            Fale Conosco
-              </button>
+            <button className='contact-btn'>
+  <a href="mailto:contato@tisourcing.com.br" style={{ textDecoration: 'none', color: 'inherit' }}>
+    Fale Conosco
+  </a>
+</button>
+
           </ul>
         
           <button className="menu-btn" onClick={toggleMenu}>

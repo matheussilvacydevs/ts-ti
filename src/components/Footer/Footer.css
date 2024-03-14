@@ -1,0 +1,81 @@
+/* ESTILO DO RODAPÉ */
+.interface{
+    width: 100%;
+}
+footer {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 4px 4%;
+    box-shadow: 0 0 10px #2e2986;
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+footer .line-footer {
+    padding: 20px 0;
+}
+
+.borda {
+    border-top: 2px solid #2e2986;
+}
+
+footer .line-footer p i {
+    margin-right: 10px;
+    color: #2e2986;
+    font-size: 22px;
+}
+
+footer .line-footer p {
+    padding-top: 20px;
+    text-align: center;
+    bottom: 0;
+    text-decoration: none;
+    color: #ebebeb;
+    font-size: 16px;
+}
+
+footer .line-footer a {
+    color: #000000;
+}
+
+.btn-social button {
+    border-radius: 3rem;
+    margin: 0 10px;
+    height: 3rem;
+    width: 3rem;
+    background-color: #2e2986;
+}
+
+.btn-social {
+    color: white;
+    margin-top: 20px;
+    text-align: right;
+}
+
+@media (max-width: 430px) {
+    footer .line-footer p {
+        font-size: 14px;
+    }
+    footer .line-footer p i {
+        font-size: 18px;
+    }
+    .btn-social button {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+}
+
+@media (max-width: 748px) {
+    footer .line-footer p {
+        font-size: 14px;
+    }
+    footer .line-footer p i {
+        font-size: 18px;
+    }
+    .btn-social button {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+}

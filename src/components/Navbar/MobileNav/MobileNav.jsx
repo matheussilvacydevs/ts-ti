@@ -8,17 +8,20 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
         <img className='logo' src='./assets/images/logo (3).png' alt='logo' />
         <ul>
           <li>
-            <a className='menu-item'>Inicio</a>
+            <a href='#hero-container' className='menu-item'>Inicio</a>
           </li>
           <li>
-            <a className='menu-item'>Sobre Nós</a>
+            <a href='#divider' className='menu-item'>Serviços</a>
           </li>
           <li>
-            <a className='menu-item'>Serviços</a>
+            <a href='#about-us-section' className='menu-item'>Sobre Nós</a>
           </li>
-          <button className='contact-btn' onClick={() => {}}>
-            Fale Conosco
-          </button>
+          <button className='contact-btn'>
+  <a href="mailto:contato@tisourcing.com.br" style={{ textDecoration: 'none', color: 'inherit' }}>
+    Fale Conosco
+  </a>
+</button>
+
         </ul>
       </div>
     </div>

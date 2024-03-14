@@ -1,5 +1,6 @@
 /* ServicesSection.css */
 .services-section {
+    margin: 1rem 0;
     text-align: center;
   }
   
@@ -17,10 +18,18 @@
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
-    margin: 0 10px;
+    margin: 1.2rem 10px;
     max-width: 300px;
     height: 369px;
     text-align: center;
+    transition: .2s;
+    cursor: pointer;
+  }
+
+  .service-card:hover {
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 10px #351aa0;
   }
   
   .service-card img {
@@ -35,7 +44,7 @@
   .service-card h3 {
     text-align: left;
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 1.4px;
   }
   
   .service-card p {
@@ -44,3 +53,41 @@
     color: #ffffffe4;
   }
   
+  @media (max-width: 430px) {
+    .service-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+    .service-card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .slider-arrow {
+      display: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+
+    .service-cards {
+
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .service-card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .service-card p {
+      font-size: 0.8rem;
+    }
+
+    .slider-arrow {
+      display: none;
+    }
+  }
+

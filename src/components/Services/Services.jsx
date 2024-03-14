@@ -1,9 +1,8 @@
 import React from 'react';
-import { BiLeftArrow, BiRightArrow } from 'react-icons/bi'; // Importe os ícones de setas para o slider
-import './Services.css'; // Importe o arquivo de estilos para a seção de serviços
+import { BiLeftArrow, BiRightArrow } from 'react-icons/bi';
+import './Services.css'; 
 
 const ServicesSection = () => {
-  // Dados dos serviços
   const services = [
     {
       title: 'Segurança da Informação',
@@ -29,13 +28,10 @@ const ServicesSection = () => {
         icon: './assets/images/card04.jpg',
       },
       
-    // Adicione mais serviços conforme necessário
   ];
 
-  // Estado para controlar o índice do serviço exibido no slider
   const [currentIndex, setCurrentIndex] = React.useState(0);
 
-  // Funções para navegar para o próximo e o anterior serviço no slider
   const goToNextService = () => {
     setCurrentIndex((prevIndex) => (prevIndex === services.length - 1 ? 0 : prevIndex + 1));
   };
