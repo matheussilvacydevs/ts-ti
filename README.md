@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+**Projeto de Desenvolvimento Web para TI Sourcing Solutions**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Visão Geral:**
+A empresa TI Sourcing Solutions, especializada em prestação de serviços de TI, solicitou o desenvolvimento de um sistema web abrangente para gerenciar suas operações internas e interagir com clientes e colaboradores de forma eficiente. O objetivo principal era criar uma plataforma centralizada que facilitasse a coordenação de projetos, o acompanhamento de tarefas, o monitoramento de desempenho e a comunicação entre todas as partes envolvidas.
 
-## Available Scripts
+**Descrição do Projeto:**
+O projeto consistiu no desenvolvimento de uma aplicação web com diversas funcionalidades voltadas para a gestão de projetos, recursos humanos, finanças e comunicação. A seguir estão algumas das características principais do sistema:
 
-In the project directory, you can run:
+1. **Gestão de Projetos**: Os usuários podem criar e gerenciar projetos, atribuir tarefas, definir prazos, acompanhar o progresso e monitorar os recursos alocados.
 
-### `npm start`
+2. **Gestão de Recursos Humanos**: O sistema permite o gerenciamento de colaboradores, incluindo cadastro de funcionários, controle de horas trabalhadas, gestão de férias e licenças, além de avaliação de desempenho.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **Gestão Financeira**: Ferramentas para controle de orçamentos, faturamento, pagamentos, emissão de notas fiscais e relatórios financeiros foram integradas para fornecer uma visão abrangente das finanças da empresa.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. **Comunicação Interna e Externa**: Recursos de mensagens instantâneas, compartilhamento de arquivos, videoconferência e calendários compartilhados foram implementados para facilitar a comunicação entre os membros da equipe e os clientes.
 
-### `npm test`
+**Tecnologias Utilizadas:**
+- Frontend: React.js, HTML, CSS, JavaScript
+- Backend: Node.js, Express.js, MongoDB
+- Autenticação e Autorização: JSON Web Tokens (JWT)
+- Comunicação em Tempo Real: WebSockets
+- Integrações de Terceiros: Stripe (para processamento de pagamentos), SendGrid (para envio de e-mails transacionais)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Resultados e Benefícios:**
+O sistema desenvolvido proporcionou à TI Sourcing Solutions uma plataforma robusta e altamente funcional para gerenciar todas as suas operações de forma eficiente. Alguns dos principais benefícios incluem:
 
-### `npm run build`
+- Melhoria na eficiência operacional, com processos automatizados e melhor organização de projetos e recursos.
+- Aumento da transparência e visibilidade das atividades da empresa, permitindo uma tomada de decisão mais informada.
+- Aprimoramento da comunicação interna e externa, resultando em maior colaboração e satisfação do cliente.
+- Redução de custos operacionais e melhor controle financeiro com o acompanhamento detalhado das despesas e receitas.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Em suma, o projeto foi um sucesso, atendendo às necessidades da TI Sourcing Solutions e contribuindo significativamente para o seu crescimento e sucesso contínuo no mercado de prestação de serviços em TI.
